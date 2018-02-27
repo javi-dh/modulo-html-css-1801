@@ -1,0 +1,26 @@
+.container{
+	border: solid 2px black;
+	width: 600px;
+	position: relative;
+}
+
+/* Agrupar de Selectores */
+.box1, .box2, .box3{
+	width: 100px;
+	height: 100px;
+}
+
+.box1{
+	background-color: #c8233d;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.box2{
+	background-color: #23c86a;
+}
+
+.box3{
+	background-color: #7123c8;
+}

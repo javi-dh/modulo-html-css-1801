@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 10px;
+	background-color: #f2f2f2;
+}
+
+img{
+	width: 100%;
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+	padding: 15px;
+	background-color: #2a4f08;
+}
+
+.dFlex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.fdRowReverse {
+	flex-direction: row-reverse;
+}
+
+.fdColumn {
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.fdColumnReverse {
+	-webkit-flex-direction: column-reverse;
+	-ms-flex-direction: column-reverse;
+	flex-direction: column-reverse;
+}
+
+.fwWrapReverse {
+	flex-wrap: wrap-reverse;
+}
+
+.jcFlexEnd{
+	justify-content: flex-end;
+}
+
+.jcCenter {
+	justify-content: center;
+}
+
+.jcSpaceBet {
+	justify-content: space-between;
+}
+
+.jcSpaceAro {
+	justify-content: space-around;
+}
+
+.aiStretch {
+	/* align-items: stretch; */
+}
+
+.aiFlexStart {
+	align-items: flex-start;
+}
+
+.aiFlexEnd {
+	align-items: flex-end;
+}
+
+.box {
+	width: 200px;
+	min-height: 200px;
+	padding: 15px;
+	background-color: #d7d027;
+	border: solid 1px red;
+}

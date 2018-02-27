@@ -1,0 +1,74 @@
+body{
+	background: url(../images/bg-2.png)
+}
+
+.main-header{
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	width: 960px;
+	/* Para centrar horizontalmente un elemento con P.A. o P.F. */
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+.logo{
+	position: absolute;
+}
+
+.main-nav{
+	background-color: #EF4C27;
+	margin-top: 25px;
+	padding-left: 120px;
+}
+
+.main-nav a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 20px 10px;
+	display: inline-block;
+}
+
+.products-container{
+	background-color: #ffffff;
+	width: 960px;
+	overflow: hidden;
+	margin: 150px auto 0;
+}
+
+.product-box{
+	width: 300px;
+	margin: 10px;
+	float: left;
+	position: relative;
+}
+
+.ribbon{
+	position: absolute;
+	top: 0;
+	right: 15px;
+}
+
+.product-text{
+	position: absolute;
+	left: 0;
+	top: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.product-text h2{
+	background-color: rgba(255,255,255,0.6);
+	font-weight: normal;
+	font-style: italic;
+}
+
+.product-text a{
+	background-color: #EF4C27;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px 20px;
+	display: inline-block;
+}

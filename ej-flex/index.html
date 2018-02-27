@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Ej de Flexbox</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<h2>Sin display: flex;</h2>
+		<div class="container">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex;</h2>
+		<div class="container dFlex">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | flex-direction: row-reverse;</h2>
+		<div class="container dFlex fdRowReverse">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | flex-direction: column;</h2>
+		<div class="container dFlex fdColumn">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | flex-direction: column-reverse;</h2>
+		<div class="container dFlex fdColumnReverse">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | flex-direction: column-reverse; | flex-wrap: wrap-reverse</h2>
+		<div class="container dFlex fdColumnReverse fwWrapReverse">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | justify-content: flex-end;</h2>
+		<div class="container dFlex jcFlexEnd">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | justify-content: center;</h2>
+		<div class="container dFlex jcCenter">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | justify-content: space-between;</h2>
+		<div class="container dFlex jcSpaceBet">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | justify-content: space-around;</h2>
+		<div class="container dFlex jcSpaceAro">
+			<article class="box"><img src="images/icon-walt.svg" alt=""></article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | justify-content: space-between; | align-items: stretch</h2>
+		<div class="container dFlex jcSpaceBet aiStretch">
+			<article class="box">
+				<img src="images/icon-walt.svg" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus rerum, harum quas similique vero aliquid odit eveniet natus et aliquam possimus quidem sit! Sunt iusto dignissimos amet, expedita obcaecati beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus sit, harum iusto atque. Quasi corporis quidem, similique odit nesciunt, eveniet sapiente, fugiat ratione doloribus unde id aspernatur est, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate cumque, illo ratione, aut praesentium amet sunt consequatur atque delectus architecto. Maiores dolores quae, magni dignissimos eum illo optio voluptate commodi.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus rerum, harum quas similique vero aliquid odit eveniet natus et aliquam possimus quidem sit! Sunt iusto dignissimos amet, expedita obcaecati beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus sit, harum iusto atque. Quasi corporis quidem, similique odit nesciunt, eveniet sapiente, fugiat ratione doloribus unde id aspernatur est, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate cumque, illo ratione, aut praesentium amet sunt consequatur atque delectus architecto. Maiores dolores quae, magni dignissimos eum illo optio voluptate commodi.</p>
+			</article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | justify-content: space-between; | align-items: flex-start</h2>
+		<div class="container dFlex jcSpaceBet aiFlexStart">
+			<article class="box">
+				<img src="images/icon-walt.svg" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus rerum, harum quas similique vero aliquid odit eveniet natus et aliquam possimus quidem sit! Sunt iusto dignissimos amet, expedita obcaecati beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus sit, harum iusto atque. Quasi corporis quidem, similique odit nesciunt, eveniet sapiente, fugiat ratione doloribus unde id aspernatur est, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate cumque, illo ratione, aut praesentium amet sunt consequatur atque delectus architecto. Maiores dolores quae, magni dignissimos eum illo optio voluptate commodi.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus rerum, harum quas similique vero aliquid odit eveniet natus et aliquam possimus quidem sit! Sunt iusto dignissimos amet, expedita obcaecati beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus sit, harum iusto atque. Quasi corporis quidem, similique odit nesciunt, eveniet sapiente, fugiat ratione doloribus unde id aspernatur est, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate cumque, illo ratione, aut praesentium amet sunt consequatur atque delectus architecto. Maiores dolores quae, magni dignissimos eum illo optio voluptate commodi.</p>
+			</article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<h2>Con display: flex; | justify-content: space-between; | align-items: flex-end</h2>
+		<div class="container dFlex jcSpaceBet aiFlexEnd">
+			<article class="box">
+				<img src="images/icon-walt.svg" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus rerum, harum quas similique vero aliquid odit eveniet natus et aliquam possimus quidem sit! Sunt iusto dignissimos amet, expedita obcaecati beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus sit, harum iusto atque. Quasi corporis quidem, similique odit nesciunt, eveniet sapiente, fugiat ratione doloribus unde id aspernatur est, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate cumque, illo ratione, aut praesentium amet sunt consequatur atque delectus architecto. Maiores dolores quae, magni dignissimos eum illo optio voluptate commodi.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus rerum, harum quas similique vero aliquid odit eveniet natus et aliquam possimus quidem sit! Sunt iusto dignissimos amet, expedita obcaecati beatae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae minus sit, harum iusto atque. Quasi corporis quidem, similique odit nesciunt, eveniet sapiente, fugiat ratione doloribus unde id aspernatur est, ea. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate cumque, illo ratione, aut praesentium amet sunt consequatur atque delectus architecto. Maiores dolores quae, magni dignissimos eum illo optio voluptate commodi.</p>
+			</article>
+			<article class="box"><img src="images/icon-pipe.svg" alt=""></article>
+			<article class="box"><img src="images/icon-mask.svg" alt=""></article>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	</body>
+</html>

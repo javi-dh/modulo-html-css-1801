@@ -1,0 +1,96 @@
+/* Selector Universal */
+*{
+	box-sizing: border-box; /* para que cuando aplicamos padding y border se descuenten esos pixeles de más del width y height */
+}
+
+html,
+body{
+	height: 100%;
+}
+
+body{
+	font-size: 10px;
+	font-family: sans-serif;
+	margin: 0; /* para eliminar los márgenes que trae el body por default */
+}
+
+a{
+	text-decoration: none;
+}
+
+ul, ol{
+	margin: 0; /* eliminamos el margén que las listas traen por default */
+	padding: 0; /* eliminamos el relleno que las listas traen por default */
+	list-style: none; /* eliminamos la viñeta que las listas traen por default */
+}
+
+.container{
+	max-width: 1200px;
+	border: solid 1px black;
+	margin: auto;
+	overflow: hidden;
+}
+
+.main-header{
+	width: 100vw;
+	min-height: 20vh;
+	background-color: #e67e15;
+}
+
+.boxA{
+	width: 20.83%;
+	float: left;
+	min-height: 100px;
+	background-color: #6eaffa;
+}
+
+.boxB{
+	float: left;
+	padding: 25px;
+	width: 66.66%;
+	margin: 0 2.08%;
+	min-height: 100px;
+	background-color: #bfe84b;
+}
+
+.boxC{
+	width: 8.33%;
+	float: left;
+	min-height: 100px;
+	background-color: #e84bd4;
+}
+
+
+@media (max-width: 900px) {
+	.container{
+		padding: 20px;
+		width: 95%;
+	}
+	.boxA{
+		width: 40%;
+	}
+	.boxB{
+		width: 55%;
+		float: right;
+		margin: 0;
+	}
+
+	.boxC{
+		width: 100%;
+		float: none;
+		clear: both;
+		border: solid 5px #000000;
+	}
+}
+
+
+@media (max-width: 450px) {
+	body{
+		font-size: 13px;
+	}
+	.boxA, .boxB, .boxC{
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+}
