@@ -18,4 +18,4 @@ Repositorio completo con todo los archivos y ejercicios vistos en clase. Cada ca
 
 ### Enjoy it!
 
-Format: ![The horns emoji](http://www.metalinjection.net/wp-content/uploads/2015/06/metal-horn-emoji.jpg)
+![The horns emoji](http://www.metalinjection.net/wp-content/uploads/2015/06/metal-horn-emoji.jpg)
